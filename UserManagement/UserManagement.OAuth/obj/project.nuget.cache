@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K70PZyEeK1Ys12wZsF7utm9VyNWwkIY35pCOiLuRBEMFKggeVe+r9m7miQ3I2SM9GwO+9mFo7OtS3j+5MasQPw==",
+  "success": true,
+  "projectFilePath": "E:\\Personal\\InterviewQuestion\\Application\\UserManagement\\UserManagement.OAuth\\UserManagement.OAuth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MAQS\\.nuget\\packages\\identitymodel\\5.2.0\\identitymodel.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

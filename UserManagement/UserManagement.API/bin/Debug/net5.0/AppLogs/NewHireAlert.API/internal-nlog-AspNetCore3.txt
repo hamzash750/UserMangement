@@ -1,0 +1,10 @@
+2022-06-15 14:14:40.9580 Info Message Template Auto Format enabled
+2022-06-15 14:14:40.9580 Info Loading assembly: NLog.Web.AspNetCore
+2022-06-15 14:14:40.9580 Info Adding target FileTarget(Name=allfile)
+2022-06-15 14:14:40.9580 Info Adding target FileTarget(Name=ownFile-web)
+2022-06-15 14:14:40.9580 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-06-15 14:14:40.9580 Info Closing old configuration.
+2022-06-15 14:14:40.9837 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=54, FilePath=E:\Personal\InterviewQuestion\Application\UserManagement.API\UserManagement.API\NLog.config
+2022-06-15 14:15:01.5466 Info Configuration file change detected! Reloading in 1000ms...
+2022-06-15 14:15:02.5654 Info Reloading configuration...
+2022-06-15 14:15:02.5962 Info Loading NLog config from XML file: E:\Personal\InterviewQuestion\Application\UserManagement.API\UserManagement.API\NLog.config

@@ -1,0 +1,11 @@
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\bin\Debug\net5.0\UserManagement.Common.deps.json
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\bin\Debug\net5.0\UserManagement.Common.dll
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\bin\Debug\net5.0\ref\UserManagement.Common.dll
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\bin\Debug\net5.0\UserManagement.Common.pdb
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\obj\Debug\net5.0\UserManagement.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\obj\Debug\net5.0\UserManagement.Common.AssemblyInfoInputs.cache
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\obj\Debug\net5.0\UserManagement.Common.AssemblyInfo.cs
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\obj\Debug\net5.0\UserManagement.Common.csproj.CoreCompileInputs.cache
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\obj\Debug\net5.0\UserManagement.Common.dll
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\obj\Debug\net5.0\ref\UserManagement.Common.dll
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.Common\obj\Debug\net5.0\UserManagement.Common.pdb

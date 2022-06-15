@@ -1,0 +1,120 @@
+2022-06-15 14:08:44.8864|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-06-15 14:08:45.0117|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly UserManagement.API 
+2022-06-15 14:08:45.0117|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2022-06-15 14:08:45.0117|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2022-06-15 14:08:45.0117|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-06-15 14:08:45.0196|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-06-15 14:08:45.0196|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Personal\InterviewQuestion\Application\UserManagement.API\UserManagement.API 
+2022-06-15 14:08:45.0196|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-06-15 14:08:45.0196|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44338/swagger/index.html - - 
+2022-06-15 14:08:45.0471|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-06-15 14:08:45.0471|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-06-15 14:08:45.1128|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection. 
+2022-06-15 14:08:45.2034|0|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection. 
+2022-06-15 14:08:45.2092|0|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18086456113720459623" disconnecting. 
+2022-06-15 14:08:45.2092|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44338/swagger/index.html - - - 200 - text/html;charset=utf-8 178.7065ms 
+2022-06-15 14:08:45.2541|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44338/_framework/aspnetcore-browser-refresh.js - - 
+2022-06-15 14:08:45.2541|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44338/_framework/aspnetcore-browser-refresh.js - - - 200 11952 application/javascript;+charset=utf-8 6.8319ms 
+2022-06-15 14:08:45.2541|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44338/_framework/aspnetcore-browser-refresh.js - - 
+2022-06-15 14:08:45.2681|0|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "17870283335901642990" disconnecting. 
+2022-06-15 14:08:45.2681|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44338/_framework/aspnetcore-browser-refresh.js - - - 200 11952 application/javascript;+charset=utf-8 2.1563ms 
+2022-06-15 14:08:45.6608|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44338/swagger/v1/swagger.json - - 
+2022-06-15 14:08:45.6608|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-06-15 14:08:45.7538|0|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18086456105130524963" disconnecting. 
+2022-06-15 14:08:45.7538|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44338/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.0629ms 
+2022-06-15 14:08:51.0559|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44338/User/GetUserList - - 
+2022-06-15 14:08:51.0559|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-06-15 14:08:51.0559|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2022-06-15 14:08:51.0881|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/User/GetUserList' 
+2022-06-15 14:08:51.0881|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'UserManagement.API.Controllers.UserController.GetUserList (UserManagement.API)' with route pattern 'User/GetUserList' is valid for the request path '/User/GetUserList' 
+2022-06-15 14:08:51.0881|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'UserManagement.API.Controllers.UserController.GetUserList (UserManagement.API)' 
+2022-06-15 14:08:51.0881|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'UserManagement.API.Controllers.UserController.GetUserList (UserManagement.API)' 
+2022-06-15 14:08:51.0999|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2022-06-15 14:08:51.0999|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUserList", controller = "User"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[UserManagement.ViewModel.UserVM] GetUserList() on controller UserManagement.API.Controllers.UserController (UserManagement.API). 
+2022-06-15 14:08:51.0999|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-06-15 14:08:51.0999|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-06-15 14:08:51.0999|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-06-15 14:08:51.0999|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-06-15 14:08:51.0999|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-06-15 14:08:51.0999|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller UserManagement.API.Controllers.UserController (UserManagement.API) 
+2022-06-15 14:08:51.1835|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2022-06-15 14:08:51.2054|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller UserManagement.API.Controllers.UserController (UserManagement.API) 
+2022-06-15 14:08:51.2058|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-06-15 14:08:51.2058|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-06-15 14:08:51.2058|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-06-15 14:08:51.2058|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-06-15 14:08:51.2058|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method UserManagement.API.Controllers.UserController.GetUserList (UserManagement.API) - Validation state: Valid 
+2022-06-15 14:08:51.2058|0|DEBUG|UserManagement.API.Controllers.UserController|In UserController.GetUserList 
+2022-06-15 14:08:51.2058|0|DEBUG|UserManagement.Business.Services.UserService|In UserService.GetAllUser 
+2022-06-15 14:08:51.5073|0|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. 
+2022-06-15 14:08:51.6428|0|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 5.0.17 initialized 'UserManagementContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: SensitiveDataLoggingEnabled  
+2022-06-15 14:08:51.6428|0|DEBUG|UserManagement.Business.Services.UserService|Out UserService.GetAllUser 
+2022-06-15 14:08:51.6428|0|DEBUG|UserManagement.API.Controllers.UserController|Out UserController.GetUserList 
+2022-06-15 14:08:51.6428|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method UserManagement.API.Controllers.UserController.GetUserList (UserManagement.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 436.3345ms. 
+2022-06-15 14:08:51.6428|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-06-15 14:08:51.6428|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-06-15 14:08:51.6428|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-06-15 14:08:51.6428|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-06-15 14:08:51.6428|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-06-15 14:08:51.6428|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-06-15 14:08:51.6428|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022-06-15 14:08:51.6428|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Buffering IAsyncEnumerable instance of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[UserManagement.ViewModel.UserVM, UserManagement.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-06-15 14:08:51.6947|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()
+    .Join(
+        inner: DbSet<UserAddress>(), 
+        outerKeySelector: user => user.AddressId, 
+        innerKeySelector: uaddress => uaddress.AddressId, 
+        resultSelector: (user, uaddress) => new UserVM{ 
+            Id = user.UserId, 
+            Name = user.Name, 
+            Designation = user.Designation, 
+            JoiningDate = user.JoiningDate.ToShortDateString(), 
+            Image = user.ImagePath, 
+            Country = uaddress.Country, 
+            FullAddress = uaddress.Street + " " + uaddress.State + " " + uaddress.City + " " + uaddress.PinCode 
+        }
+    )' 
+2022-06-15 14:08:51.8571|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<UserVM>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+        SELECT u.UserId, u.Name, u.Designation, u.JoiningDate, u.ImagePath, u0.Country, (((((u0.Street + N' ') + u0.State) + N' ') + u0.City) + N' ') + u0.PinCode
+        FROM Users AS u
+        INNER JOIN UserAddress AS u0 ON u.AddressId == u0.AddressId), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserVM>, 
+    UserManagement.Repository.UserManagementContext, 
+    False, 
+    False
+)' 
+2022-06-15 14:08:51.8936|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2022-06-15 14:08:51.9163|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (21ms). 
+2022-06-15 14:08:51.9163|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'UserManagementDB' on server 'HAMZA\SQLEXPRESS'. 
+2022-06-15 14:08:52.1647|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'UserManagementDB' on server 'HAMZA\SQLEXPRESS'. 
+2022-06-15 14:08:52.1647|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Name], [u].[Designation], [u].[JoiningDate], [u].[ImagePath], [u0].[Country], (((((COALESCE([u0].[Street], N'') + N' ') + COALESCE([u0].[State], N'')) + N' ') + COALESCE([u0].[City], N'')) + N' ') + COALESCE([u0].[PinCode], N'')
+FROM [Users] AS [u]
+INNER JOIN [UserAddress] AS [u0] ON [u].[AddressId] = [u0].[AddressId] 
+2022-06-15 14:08:52.1999|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Name], [u].[Designation], [u].[JoiningDate], [u].[ImagePath], [u0].[Country], (((((COALESCE([u0].[Street], N'') + N' ') + COALESCE([u0].[State], N'')) + N' ') + COALESCE([u0].[City], N'')) + N' ') + COALESCE([u0].[PinCode], N'')
+FROM [Users] AS [u]
+INNER JOIN [UserAddress] AS [u0] ON [u].[AddressId] = [u0].[AddressId] 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed. 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'UserManagementDB' on server 'HAMZA\SQLEXPRESS'. 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'UserManagementDB' on server 'HAMZA\SQLEXPRESS'. 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'. 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain) 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result. 
+2022-06-15 14:08:52.2375|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response. 
+2022-06-15 14:08:52.2375|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[UserManagement.ViewModel.UserVM, UserManagement.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2022-06-15 14:08:52.3257|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022-06-15 14:08:52.3300|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-06-15 14:08:52.3300|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-06-15 14:08:52.3300|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action UserManagement.API.Controllers.UserController.GetUserList (UserManagement.API) in 1222.3046ms 
+2022-06-15 14:08:52.3300|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'UserManagement.API.Controllers.UserController.GetUserList (UserManagement.API)' 
+2022-06-15 14:08:52.3300|0|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686489872171299" disconnecting. 
+2022-06-15 14:08:52.3300|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'UserManagementContext' disposed. 
+2022-06-15 14:08:52.3300|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44338/User/GetUserList - - - 200 324 application/json;+charset=utf-8 1280.8525ms 

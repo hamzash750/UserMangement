@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "W0LzRHswrhXnkjcB3xo9dRiQQbpY/hi4EVC9tCoavQzmDd+rEa7bXKgXSTl/h8Y+kDmwp0VDi/R4ZWfnr3VH5w==",
+  "success": true,
+  "projectFilePath": "E:\\Personal\\InterviewQuestion\\Application\\UserManagement\\UserManagement.ViewModel\\UserManagement.ViewModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MAQS\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\MAQS\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\MAQS\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+2022-06-15 14:06:08.4084|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |
+2022-06-15 14:06:08.4245|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |
+2022-06-15 14:06:08.4245|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\Personal\InterviewQuestion\Application\UserManagement.API\UserManagement.API |url: |action: |
+2022-06-15 14:06:13.3038|0|DEBUG|UserManagement.API.Controllers.UserController|In UserController.GetUserList |url: https://localhost/User/GetUserList|action: GetUserList|
+2022-06-15 14:06:13.3038|0|DEBUG|UserManagement.Business.Services.UserService|In UserService.GetAllUser |url: https://localhost/User/GetUserList|action: GetUserList|
+2022-06-15 14:06:13.5665|0|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development. |url: https://localhost/User/GetUserList|action: GetUserList|
+2022-06-15 14:06:13.7277|0|DEBUG|UserManagement.Business.Services.UserService|Out UserService.GetAllUser |url: https://localhost/User/GetUserList|action: GetUserList|
+2022-06-15 14:06:13.7277|0|DEBUG|UserManagement.API.Controllers.UserController|Out UserController.GetUserList |url: https://localhost/User/GetUserList|action: GetUserList|

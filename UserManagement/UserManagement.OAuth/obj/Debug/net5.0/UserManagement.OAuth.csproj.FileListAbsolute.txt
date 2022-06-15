@@ -1,0 +1,12 @@
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\bin\Debug\net5.0\UserManagement.OAuth.deps.json
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\bin\Debug\net5.0\UserManagement.OAuth.dll
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\bin\Debug\net5.0\ref\UserManagement.OAuth.dll
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\bin\Debug\net5.0\UserManagement.OAuth.pdb
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\obj\Debug\net5.0\UserManagement.OAuth.GeneratedMSBuildEditorConfig.editorconfig
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\obj\Debug\net5.0\UserManagement.OAuth.AssemblyInfoInputs.cache
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\obj\Debug\net5.0\UserManagement.OAuth.AssemblyInfo.cs
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\obj\Debug\net5.0\UserManagement.OAuth.csproj.CoreCompileInputs.cache
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\obj\Debug\net5.0\UserManagement.OAuth.dll
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\obj\Debug\net5.0\ref\UserManagement.OAuth.dll
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\obj\Debug\net5.0\UserManagement.OAuth.pdb
+E:\Personal\InterviewQuestion\Application\UserManagement\UserManagement.OAuth\obj\Debug\net5.0\UserManagement.OAuth.csproj.AssemblyReference.cache
