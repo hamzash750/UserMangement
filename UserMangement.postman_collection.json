@@ -1,0 +1,239 @@
+{
+	"variables": [],
+	"info": {
+		"name": "UserMangement",
+		"_postman_id": "3e0a2e11-4840-de0a-50b3-48ffad55d303",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "OAuthDetails",
+			"request": {
+				"url": "https://localhost:44322/.well-known/openid-configuration",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Token",
+			"request": {
+				"url": "https://localhost:44322/connect/token",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "myApi.read",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "cwm.client",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "secret",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserList",
+			"request": {
+				"url": "https://localhost:44338/User/GetUserList",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJDRTYyRjc3RTZENTFDMjIxREU5RDgzQjEzMEUxMTVFIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2NTUzMTI2MDgsImV4cCI6MTY1NTMxNjIwOCwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzMjIiLCJhdWQiOiJteUFwaSIsImNsaWVudF9pZCI6ImN3bS5jbGllbnQiLCJqdGkiOiI1M0MxNDcxQjExNUY5NkFBNUQ4MkUwMDIyM0E4NUZBNyIsImlhdCI6MTY1NTMxMjYwOCwic2NvcGUiOlsibXlBcGkucmVhZCJdfQ.RV1iq1_xN-tQtMjTZgloAKrf1rBaP3itbM4vgBmR5-_Jj51jWFkX-P0PSSiM8BWgkoLpP5iUz5sFt2PBwRA4UJNUyWm2hxxlIgW8LVrTbOExgHZTzdMTRxVjmLYnGnjRaFthj-vU_nC3EIvQd6fN24SNYTIRSrVHjsghgJ54HC571k67S_BHrRD_5oO6B0j2tf8-RW74sL2w7vivQTV94rwjxOjASQuulj4bgi7X9DC4yvK7wiAwRm4Dj0AIQjurogkRp2HDqvgLuGcrMseoWsRG4T2qb6ZBp5Xi19Giq4R1nDZhQUJFeUfp3sF7DoQrwIu-CxxoEJysrNEZvS2k2Q",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserDetailsById",
+			"request": {
+				"url": {
+					"raw": "https://localhost:44338/User/GetUserDetails?Id=4",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44338",
+					"path": [
+						"User",
+						"GetUserDetails"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "4",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IkJDRTYyRjc3RTZENTFDMjIxREU5RDgzQjEzMEUxMTVFIiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2NTUzMTMwMjIsImV4cCI6MTY1NTMxNjYyMiwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NDQzMjIiLCJhdWQiOiJteUFwaSIsImNsaWVudF9pZCI6ImN3bS5jbGllbnQiLCJqdGkiOiJCMDM4RDcyNzIwRTU1MDgwOUUwMDE2MDdERkY3REEyRSIsImlhdCI6MTY1NTMxMzAyMiwic2NvcGUiOlsibXlBcGkucmVhZCJdfQ.wt8hLFmyGb9xKOO6F5hq8a2R9jOjU0JCXMYtPgU-be8VMulECT_anGdeiYnMvxg0w3ll6REaJBl3irsgcL7d8iAycWppEBE8nE7b4synMWFkdRB39oOh-e0nrLf03zXF3Gs-R99v4RmviR0G065HFBQf995fKD2-mabXFEjJx_0G0dymO9-Y0VWtvXsnfeTdorO77nd41sq48tgAV36XnkIDJYFZYQPb7xS0LvoxDVw00kdp04MBlcCIm6yMycmV4rQ_H3Bw57Q7Ob2877NhWiO-KEhFCVIoO0wsNhNmNaETGT-swG6Rzhf143fdCwgyUUzdMpBXhOm0aTnSIogJtA",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"url": {
+					"raw": "https://localhost:44338/UserManagement/DeleteUser?Id=11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44338",
+					"path": [
+						"UserManagement",
+						"DeleteUser"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "11",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "InsertNewUser",
+			"request": {
+				"url": "https://localhost:44338/UserManagement/InsertNewUser",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Emma\",\r\n  \"designation\": \"HR\",\r\n  \"joiningDate\": \"2020-06-15\",\r\n  \"imagePath\": \"test\",\r\n  \"address\": {\r\n    \"country\": \"UK\",\r\n    \"state\": \"StateUK\",\r\n    \"city\": \"London\",\r\n    \"pinCode\": \"123445\",\r\n    \"street\": \"Test London UK Street\"\r\n  }\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Record",
+			"request": {
+				"url": "https://localhost:44338/UserManagement/UpdateUser",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"uId\": 13,\r\n  \"name\": \"Sophia\",\r\n  \"designation\": \"HR\",\r\n  \"joiningDate\": \"2021-06-15\",\r\n  \"imagePath\": \"\",\r\n  \"address\": {\r\n    \"country\": \"India\",\r\n    \"state\": \"India State\",\r\n    \"city\": \"Delhi\",\r\n    \"pinCode\": \"12344\",\r\n    \"street\": \"Test India Street Address\"\r\n  }\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "UploadUserImage",
+			"request": {
+				"url": "https://localhost:44338/UserManagement/UploadUserImage",
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "UId",
+							"value": "4",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "UserImage",
+							"description": "",
+							"type": "file",
+							"src": "Content-writer-Fiverr.jpg"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"url": "https://localhost:44338/Searching/SearchUser",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"sort\": \"desc\",\r\n  \"pageNumber\": 1,\r\n  \"sortcolumn\": \"Id\",\r\n  \"name\":\"Emma\",\r\n  \"designation\": \"Developer\",\r\n  \"joiningStartDate\": \"2019-06-15\",\r\n  \"joiningEndDate\": \"2023-01-15\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
